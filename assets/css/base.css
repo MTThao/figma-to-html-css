@@ -1,0 +1,103 @@
+:root {
+    --primary: #FFFFFF;
+    --primary-1: #363738;
+    --secondary: #F5F5F5;
+    --secondary-1: #FEFAF1;
+    --secondary-2: #DB4444;
+    --text: #FAFAFA;
+    --text-1: #7D8184;
+    --text-2: #000000;
+    --button: #000000;
+    --button-1: #00FF66;
+    --button-2: #DB4444;
+    --hover-button: #E07575;
+    --hover-button-1: #A0BCE0;
+    --background-color: #FFFFFF;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+.top-header-text {
+    color: var(--text);
+}
+
+.header-text {
+    color: var(--text-2);
+}
+
+.header-text:hover {
+    color: var(--text-2);
+    text-decoration: underline;
+}
+
+.inter-semibold {
+    font-family: "Inter", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+    font-size: 28px;
+    letter-spacing: 4%;
+}
+
+.inter-bold {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 24px;
+    line-height: 24px;
+    letter-spacing: 3%;
+}
+
+.inter-extra-bold {
+    font-family: "Inter", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 48px;
+    line-height: 60px;
+    letter-spacing: 4%;
+}
+  
+.poppins-regular {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.top-header-content {
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.top-header-link {
+    font-size: 14px;
+    line-height: 24px;
+    align-items: center;
+}
+
+.poppins-medium {
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+
+.poppins-semibold {
+    font-family: "Poppins", sans-serif;
+    font-weight: 600;
+    font-style: normal;
+}
+
+.hover-link:hover {
+    color: var(--text);
+    text-decoration: underline;
+}
+
+.wrapper {
+    max-width: 1500px;
+    width: 100%;
+    margin-inline: auto;
+    display: flex;
+    justify-content: space-between;
+}
